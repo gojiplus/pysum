@@ -1,0 +1,38 @@
+
+body {
+    padding: 24px;
+    font-family: Sans-Serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    border:1px solid #cccccc;
+    border-collapse: collapse;
+}
+
+table th {
+    padding: 5px 11px;
+    background-color: #EEEEEE;
+    border-top: none;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin: 0px;
+}
+
+table td {
+    padding: 5px 11px;
+    margin: 0px;
+    border-left: 1px solid #cccccc;
+}
+
+table tr:nth-child(odd){ 
+    background: #ffffff;
+}
+
+/*  Define the background color for all the EVEN background rows  */
+table tr:nth-child(even){
+    background: #fcfcfc;
+}
+

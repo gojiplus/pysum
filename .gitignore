@@ -1,0 +1,6 @@
+dev/
+__pycache__/
+*.py[cod]
+build/
+pysum.egg-info/
+dist/
