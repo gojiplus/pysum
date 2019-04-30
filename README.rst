@@ -10,6 +10,8 @@ pysum: summarize pandas dataframes
 .. image:: https://readthedocs.org/projects/pysum/badge/?version=latest
     :target: http://pysum.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
+.. image:: https://pepy.tech/badge/pysum
+    :target: https://pepy.tech/project/pysum
 
 ``pysum`` takes a pandas dataframe (and a few others arguments to
 customize the output) and creates a markdown, html, or xlsx report with
