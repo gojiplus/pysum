@@ -1,8 +1,8 @@
 pysum: summarize pandas dataframes
 ---------------------------------------
 
-.. image:: https://travis-ci.org/soodoku/pysum.svg?branch=master
-    :target: https://travis-ci.org/soodoku/pysum
+.. image:: https://github.com/soodoku/pysum/workflows/test/badge.svg
+    :target: https://github.com/soodoku/pysum/actions?query=workflow%3Atest
 .. image:: https://ci.appveyor.com/api/projects/status/q056gbs0koovg3qa?svg=true
     :target: https://ci.appveyor.com/project/soodoku/pysum
 .. image:: https://img.shields.io/pypi/v/pysum.svg
