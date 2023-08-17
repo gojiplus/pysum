@@ -1,7 +1,8 @@
 pysum: summarize pandas dataframes
 ---------------------------------------
 
-[![test](https://github.com/gojiplus/pysum/actions/workflows/test.yml/badge.svg)](https://github.com/gojiplus/pysum/actions/workflows/test.yml)
+.. image:: https://github.com/gojiplus/pysum/actions/workflows/test.yml/badge.svg
+    :target: https://github.com/gojiplus/pysum/actions/workflows/test.yml
 .. image:: https://img.shields.io/pypi/v/pysum.svg
     :target: https://pypi.python.org/pypi/pysum
 .. image:: https://readthedocs.org/projects/pysum/badge/?version=latest
