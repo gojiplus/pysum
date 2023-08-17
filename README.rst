@@ -3,14 +3,12 @@ pysum: summarize pandas dataframes
 
 .. image:: https://github.com/soodoku/pysum/workflows/test/badge.svg
     :target: https://github.com/soodoku/pysum/actions?query=workflow%3Atest
-.. image:: https://ci.appveyor.com/api/projects/status/q056gbs0koovg3qa?svg=true
-    :target: https://ci.appveyor.com/project/soodoku/pysum
 .. image:: https://img.shields.io/pypi/v/pysum.svg
     :target: https://pypi.python.org/pypi/pysum
 .. image:: https://readthedocs.org/projects/pysum/badge/?version=latest
     :target: http://pysum.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-.. image:: https://pepy.tech/badge/pysum
+.. image:: https://static.pepy.tech/badge/pysum
     :target: https://pepy.tech/project/pysum
 
 ``pysum`` takes a pandas dataframe (and a few others arguments to
