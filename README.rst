@@ -13,7 +13,7 @@ pysum: summarize pandas dataframes
 
 ``pysum`` takes a pandas dataframe (and a few others arguments to
 customize the output) and creates a markdown, html, or xlsx report with
-summary of each of variables in the dataframe.
+summary of each of the variables in the dataframe.
 
 The program iterates through each of the columns in the dataframe and
 based on the datatype, creates summary statistics for each, and prints
@@ -28,24 +28,24 @@ The function takes the following arguments:
    must also have an attribute ``name`` that carries the ``name`` of the
    dataframe. See examples for clarification.
 2. ``round_digits``: Integer. Digits to which the numbers reported
-   should be rounded. Default is 2.
+   should be rounded. The default is 2.
 3. ``var_numbers``: Boolean. Whether or not to add a column indicating
-   the column number. Default is ``true``.
-4. ``missing_col``: Boolean. Adds a column that reports proportion
-   missing. Default in true.
+   the column number. The default is ``true``.
+4. ``missing_col``: Boolean. Adds a column that reports the proportion
+   missing. The default is true.
 5. ``max_distinct_values``: Numeric. The maximum number of values to
-   display frequencies for. If variable has more distinct values than
+   display frequencies for. If a variable has more distinct values than
    this number, the remaining frequencies will be reported as a whole,
    along with the number of additional distinct values. Defaults to 10.
 6. ``max_string_width``: Integer. Limits the number of characters to
-   display in the frequency tables. Default is 25.
+   display in the frequency tables. The default is 25.
 7. ``output_type``: String. The file format of the output file.
-   ``xlsx, html,  markdown``. Default is ``html``.
+   ``xlsx, html,  markdown``. The default is ``html``.
 8. ``output_file``: String. The path and filename to which the script
-   should output the results. Default is ``summary.html`` in the local
+   should output the results. The default is ``summary.html`` in the local
    directory
 9. ``append``: Boolean. If there is an existing file, should we append
-   the results or should we overwrite the file. Default is ``true``.
+   the results, or should we overwrite the file? The default is ``true``.
    When append is ``true``, the results are appended. When it is
    ``false``, the file is overwritten.
 
@@ -55,7 +55,7 @@ local folder.
 Output
 ~~~~~~
 
-The output is a xlsx, html, or markdown file. For numeric columns, it
+The output is an xlsx, html, or markdown file. For numeric columns, it
 reports mean, standard deviation, minimum, maximum, median, IQR, Number
 of distinct values, Percentage that are valid, and Percentage missing,
 by default.
@@ -72,7 +72,7 @@ by default.
 
 For character vectors, it reports as many as ``max_distinct_values``,
 reports the number of other values, and their percentage. It also
-reports percentage of observations that are valid and that are missing
+reports the percentage of observations that are valid and that are missing
 by default.
 
 Limitations: Dates by default are parsed as characters. Dates are best
@@ -105,7 +105,7 @@ Examples
     names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
     dataset = pandas.read_csv(url, names=names)
 
-    # Pass name of the dataset; required
+    # Pass the name of the dataset; it is the required
     dataset.name = 'iris'
 
     pysum.summarizeDF(dataset)
